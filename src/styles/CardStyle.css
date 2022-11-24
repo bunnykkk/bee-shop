@@ -1,0 +1,32 @@
+.productCard_main-block {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.productCard_block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-left: 2%;
+  width: 25vw;
+  height: auto;
+  border-radius: 25px;
+  margin-bottom: 2%;
+  margin: 5%;
+  border: 2px solid #f1c40f;
+}
+
+.productCard_img {
+  width: 50%;
+  height: 50%;
+}
+
+.productCard_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 2%;
+}
